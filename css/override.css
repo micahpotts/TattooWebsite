@@ -9,17 +9,13 @@
   position: relative;
 }*/
 
+
 .parallax-window {
     min-height: 400px;
     background: transparent;
 }
 
-.main-header img {
-  max-width: 100%;
-  height: auto;
-  display: block;
 
-}
 
 /*span {
 border-bottom: 2px solid;
@@ -106,13 +102,28 @@ body {
   background-color: #E9E9E9;
 }
 
-.primary-content {
+.smallHeader {
+  background-image: url(../images/WideFlashWall.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  padding: 5em 0 3em 0;
+  color: white;
+  font-weight: bold;
+}
+
+.border-top {
+  border-top: thick solid #101010;
+  /*border-bottom: thick solid #101010;*/
+}
+
+.padding5 {
   padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.primary-content {
   color: #111;
   font-size: 1.5em;
-  padding-bottom: 5%;
-  border-top: thick solid #101010;
-  border-bottom: thick solid #101010;
 }
 
 .primary-content p {
@@ -139,9 +150,7 @@ body {
   margin-top: 10%;
 }*/
 
-#map {
-  border-bottom: thick solid #101010;
-}
+
 
 footer {
   color: #111;
@@ -154,7 +163,3 @@ footer img {
   max-width: 6%;
 }
 
-
-.location_background_img {
-  max-width: 100%;
-}
