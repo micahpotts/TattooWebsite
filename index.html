@@ -13,7 +13,7 @@
 		<link rel="stylesheet" type="text/css" href="./css/override.css">
 	</head>
 	
-<body>
+<body data-spy="scroll" data-target="#scrollspyDiv">
 
 		
 <header id="top" class="main-header">
@@ -29,7 +29,7 @@
 	</div>
 
 <!-- Nav Bar -->
-
+<div id="scrollspyDiv">
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
@@ -44,15 +44,15 @@
 		    </div>
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      	<ul class="nav navbar-nav">
-			        <li class="active"><a href="#top">home<span class="sr-only">(current)</span></a></li>
-			        <li><a href="#about">about</a></li>
-			        <li><a href="#location">location</a></li>
-			        <li><a href="#contact">contact</a></li>
+			        <li class="active hdrLinks"><a href="#top">home<span class="sr-only">(current)</span></a></li>
+			        <li class="hdrLinks"><a href="#about">about</a></li>
+			        <li class="hdrLinks"><a href="#location">location</a></li>
+			        <li class="hdrLinks"><a href="#contact">contact</a></li>
 		      	</ul>
 		    </div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav> 
-	
+</div>	
 </header>
 	
 <!-- About Section -->
@@ -189,6 +189,7 @@
 	</div>			
 
 <!-- Footer  -->
+	<div id="contact">
 		<footer class="main-footer border-top">
 
 			
@@ -206,6 +207,7 @@
 
 			<p>All rights reserved. 2015.</p>
 		</footer>
+	</div>
 
 		
     
@@ -216,6 +218,8 @@
     <script src="./js/bootstrap.min.js"></script>
 
 	<script src="./js/parallax.js"></script>
+
+	<script src="./js/active.js"></script>
 
 </body>
 
